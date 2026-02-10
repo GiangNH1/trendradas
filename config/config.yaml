@@ -58,29 +58,6 @@ platforms:
   sources:
     - id: "toutiao"
       name: "Toutiao"
-    - id: "baidu"
-      name: "Baidu Hot Search"
-    - id: "wallstreetcn-hot"
-      name: "Wall Street CN"
-    - id: "thepaper"
-      name: "The Paper"
-    - id: "bilibili-hot-search"
-      name: "Bilibili Hot Search"
-    - id: "cls-hot"
-      name: "CLS Hot"
-    - id: "ifeng"
-      name: "iFeng"
-    - id: "tieba"
-      name: "Tieba"
-    - id: "weibo"
-      name: "Weibo"
-    - id: "douyin"
-      name: "Douyin"
-    - id: "zhihu"
-      name: "Zhihu"
-
-
-
 # ===============================================================
 # 3. Nguồn Dữ Liệu - Đăng Ký RSS
 #
@@ -398,7 +375,7 @@ ai:
 # Cấu hình mô hình xem phần ai ở trên
 # ===============================================================
 ai_analysis:
-  enabled: true                     # Có bật phân tích AI không (công tắc tổng)
+  enabled: false                     # Có bật phân tích AI không (công tắc tổng)
                                     # ⚠️ Khi bật hệ thống lập lịch, mục này vẫn là công tắc tổng:
                                     #   false → Không bao giờ phân tích (dù lập lịch thế nào)
                                     #   true  → Thời điểm phân tích do trường analyze của lịch kiểm soát
